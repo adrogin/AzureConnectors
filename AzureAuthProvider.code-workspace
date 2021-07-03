@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "AzureResourceInterfaces"
+		},
+		{
+			"path": "AzureAuthProvider"
+		}
+	],
+	"settings": {
+		"al.enableCodeAnalysis": true,
+		"al.codeAnalyzers": [
+			"${CodeCop}",
+			"${UICop}",
+			"${PerTenantExtensionCop}"
+		]
+	}
+}
