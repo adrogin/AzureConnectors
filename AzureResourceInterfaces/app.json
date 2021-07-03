@@ -1,0 +1,26 @@
+{
+  "id": "b025a009-cc99-496d-bf24-7ef01adbf2dc",
+  "name": "Azure Resource Interfaces",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 70220,
+      "to": 70229
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://AzureResourceInterfaces.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}
