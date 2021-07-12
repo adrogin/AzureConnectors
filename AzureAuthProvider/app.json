@@ -1,0 +1,33 @@
+{
+  "id": "93975f9b-e628-44f7-9c7e-17bfc47f1c29",
+  "name": "Azure OAuth2 Provider",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "b025a009-cc99-496d-bf24-7ef01adbf2dc",
+      "name": "Azure Resource Interfaces",
+      "publisher": "Default publisher",
+      "version": "1.0.0.0"    
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50250,
+      "to": 50259
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://AzureAuthProvider.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}

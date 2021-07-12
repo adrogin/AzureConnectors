@@ -1,2 +1,9 @@
-/AzureAuthProvider
-/AzureResourceInterfaces
+*.app
+*.flf
+*/.vscode/rad.json
+.output
+.alPackages
+.alcache
+.altemplates
+launch.json
+rad.json
