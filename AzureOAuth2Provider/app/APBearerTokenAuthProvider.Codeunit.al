@@ -35,12 +35,9 @@ codeunit 50250 "AP Bearer Token Auth. Provider" implements "AP Azure Auth. Provi
         exit(ClientIdentity."Token Expiration DateTime" > CurrentDateTime());
     end;
 
-    local procedure PrepareBearerTokenAuthHeader(ClientIdentity: Record "AP Client Identity"): Dictionary of [Text, Text]
-    var
-        Header: Dictionary of [Text, Text];
+    local procedure PrepareBearerTokenAuthHeader(ClientIdentity: Record "AP Client Identity") Header: Dictionary of [Text, Text]
     begin
         Header.Add('Authorization', 'Bearer ' + ClientIdentity.Token);
-        exit(Header);
     end;
 
     local procedure AcquireBearerToken(var ClientIdentity: Record "AP Client Identity")
