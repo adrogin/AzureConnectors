@@ -1,0 +1,33 @@
+{
+  "id": "8dce80ff-6953-4dc8-9ae6-c6be7f8440b8",
+  "name": "AADAuthProvider",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "b025a009-cc99-496d-bf24-7ef01adbf2dc",
+      "name": "Azure Resource Interfaces",
+      "publisher": "Default publisher",
+      "version": "1.0.0.0"    
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50260,
+      "to": 50269
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://AADAuthProvider.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}

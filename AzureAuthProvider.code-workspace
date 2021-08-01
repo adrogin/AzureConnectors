@@ -4,7 +4,10 @@
 			"path": "AzureResourceInterfaces"
 		},
 		{
-			"path": "AzureAuthProvider"
+			"path": "AzureOAuth2Provider"
+		},
+		{
+			"path": "AADAuthProvider"
 		}
 	],
 	"settings": {
